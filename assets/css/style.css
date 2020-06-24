@@ -1,0 +1,36 @@
+:root{
+  --texto: #ffc107 !important;
+  --gradiente: linear-gradient(to right,#009b72,#046865)!important;
+  --azul: #192d35 !important;
+  --verde:#009b72;
+}
+
+
+body{
+    background-color: white;
+}
+#nombre{
+    font-size: 150px;
+    
+    background: linear-gradient(135deg,#009b72 32.5%,#009b72 45%,#009b72 60%,#009b72 70%);;
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-family: 'Nunito', sans-serif;
+}
+.rayita{
+  background: linear-gradient(to top, var(--texto) 50%, transparent 50%);
+  font-size: 70px;
+}
+#lateral{
+background-color: #192d35 !important;
+border-radius: 50% 1em/ 170px;
+}
+.a{
+  font-family: 'Barlow', sans-serif;
+  font-size: 50px;
+  ;
+}
+.texto{
+  color: var(--texto);
+}
