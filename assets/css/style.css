@@ -16,7 +16,7 @@ body{
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: left;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'MuseoModerno', cursive;
 }
 .rayita{
   background: linear-gradient(to top, var(--texto) 50%, transparent 50%);
